@@ -67,13 +67,13 @@ Here is an example CFDA file that generates a rotating square:
 
 ------------------------------------------------------------------------------
 
-startshape START[] //The shape to render first
-CF::Size = [s 2] //The size of the canvas.  Explained below
+    startshape START[] //The shape to render first
+    CF::Size = [s 2] //The size of the canvas.  Explained below
 
-shape START
-{
-    SQUARE[r #add,0,9#] //A call to draw a square with a CFA operation
-}
+    shape START
+    {
+        SQUARE[r #add,0,9#] //A call to draw a square with a CFA operation
+    }
 
 ------------------------------------------------------------------------------
 
@@ -90,7 +90,7 @@ change the size of the canvas make sure and set CF::Size to a value big
 enough to hold all frames of the animation.
 
 The start shape will draw a SQUARE.  We specify that its rotation should
-change with each frame:  [r #add,0,9]
+change with each frame:  [r #add,0,9#]
 
 The operation specifies that the rotation should start at zero and increase
 by 9 each frame.  This means that if we generate 10 frames of animation
