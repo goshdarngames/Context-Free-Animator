@@ -18,7 +18,8 @@ Configuration:
 ==============
 
 In cfa.py change the following line:
-    CF_PATH = os.path.join(...
+    
+   CF_PATH = os.path.join(...
     
 Set the path to point at your installation of Context Free CLI.
     
