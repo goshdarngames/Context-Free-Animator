@@ -46,19 +46,19 @@ Only one operation has been implemented so far:
 
     - #add, (initial_value), (amount)#
     
-      When the cfda is parsed by Context Free Animator this opcode will
-      be replaced by a number (lets call the number X).
-      
-      On the first frame X will be equal to 'initial_value'.
-      
-      On each subsequent frame X will increase by 'amount'.
-      
-      'initial_value' and 'amount' can be any floating point number
-      (including negative numbers)
-      
-      So if the operation #add, 0, 10# appears in a CFDA file it will
-      be replaced by 0 in the first frame, 10 in the second and 20
-      in the third and so on.  
+When the cfda is parsed by Context Free Animator this opcode will
+be replaced by a number (lets call the number X).
+
+On the first frame X will be equal to 'initial_value'.
+
+On each subsequent frame X will increase by 'amount'.
+
+'initial_value' and 'amount' can be any floating point number
+(including negative numbers)
+
+So if the operation #add, 0, 10# appears in a CFDA file it will
+be replaced by 0 in the first frame, 10 in the second and 20
+in the third and so on.  
 
 Example CFDA File:
 ==================
