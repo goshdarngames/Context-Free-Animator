@@ -1,0 +1,30 @@
+CONTEXT FREE ANIMATOR USAGE INFORMATION
+=======================================
+
+Command line syntax:
+                   
+    cfa.py [input_cfda] [output_dir] [num_frames] (Context Free Options)
+    
+Arguments:
+
+    1) input_cfda - Relative path to the CFDA file to animate.
+                    e.g. ..\cfdas\square.cfda
+                    
+    2) output_dir - Relative path to the directory the animation frames
+                    should be output to.  e.g. ..\output
+                    
+    3) num_frames - How many frames should be generated.  E.g 10
+    
+    4) Context Free Options - The options that should be passed to 
+                              context free.  These should all be contained
+                              in one parameter.
+                                
+                              This argument is OPTIONAL!
+                                
+                              e.g Windows:
+                                 "/s 100 /b 1 /x 0.01"
+                                   
+                              e.g Unix:
+                                 "-s 100 -b 1 -x 0.01"
+                                   
+For more information on how to use the program check 'DOCUMENTATION.md'.
