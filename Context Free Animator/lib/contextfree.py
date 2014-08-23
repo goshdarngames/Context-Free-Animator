@@ -38,7 +38,6 @@ def call_context_free(cf_path, input_file, output_path, cf_options):
     input_path = os.path.abspath(TEMP_FILE_NAME)
         
     print("====Calling Context Free===")
-    print(cf_options)
     
     #build the arguments to pass to call
     call_args = []
