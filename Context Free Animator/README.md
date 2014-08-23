@@ -4,6 +4,24 @@ Context Free Animator
 Creates animations using Context Free Art:
     http://www.contextfreeart.org
     
+Requirements:
+=============
+
+The Context Free Animator script is written for Python 3.
+
+Context Free Art can be downloaded here:
+    http://www.contextfreeart.org/mediawiki/index.php/Download_page
+    
+Context Free Animator supports Windows and Linux/Unix.
+
+Configuration:
+==============
+
+In cfa.py change the following line:
+    CF_PATH = os.path.join(...
+    
+Set the path to point at your installation of Context Free CLI.
+    
 Documentation:
 ==============
     
